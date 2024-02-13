@@ -1,0 +1,8 @@
+[submodule "ai-trainer-backend"]
+	path = backend-app
+	url = https://github.com/ensynAI/ai-trainer-backend.git
+	branch = demo
+[submodule "chat-frontend"]
+	path = frontend-app
+	url = https://github.com/ensynAI/chat-frontend.git
+	branch = demo

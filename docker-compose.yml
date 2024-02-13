@@ -1,0 +1,24 @@
+version: "3.8"
+
+services:
+  backend-app:
+    image: backend-app
+    build:
+      context: backend-app
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      - API_KEY=${API_KEY}
+    env_file:
+      - .env
+
+  frontend-app:
+    image: frontend-app
+    build:
+      context: frontend-app
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    env_file:
+      - .env
