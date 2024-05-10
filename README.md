@@ -1,6 +1,8 @@
 # Customer Service AI Trainer
 
-This project is an AI-based platform for training Customer Service agents. The entire app is AI-powered and uses the OpenAI API to generate both responses to customer queries and provide feedback to the agents. The platform is built using FastAPI and ReactJS and is containerized using Docker.
+This project is an AI-based chat platform for training Customer Service agents. The entire app is AI-powered and uses the OpenAI chat completion API to simulate a potential customer. The platform allows agents to respond to customer queries and provides them with immediate, real-time feedback, which they can use to improve their responses. The platform is built using FastAPI and ReactJS and is containerized using Docker.
+
+See the demo below:
 
 <p align="center">
   <img width=90% src="./docs/demo.gif" />
