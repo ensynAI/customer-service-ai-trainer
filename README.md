@@ -3,7 +3,7 @@
 This project is an AI-based platform for training Customer Service agents. The entire app is AI-powered and uses the OpenAI API to generate both responses to customer queries and provide feedback to the agents. The platform is built using FastAPI and ReactJS and is containerized using Docker.
 
 <p align="center">
-  <img width=80% src="./docs/demo.gif" />
+  <img width=90% src="./docs/demo.gif" />
 </p>
 
 
@@ -28,7 +28,7 @@ The project code can be accessed in the `backend-app` and `frontend-app` directo
 ## System Diagram
 
 <p align="center">
-  <img width=40% src="./docs/system_diagram.png" />
+  <img width=50% src="./docs/system_diagram.png" />
 </p>
 
 
